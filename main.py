@@ -4,9 +4,7 @@ from tkinter import messagebox
 calculator = Tk()
 calculator.title("CALCULATOR")
 memory = [0]
-def pump_events(root):
-    while root.dooneevent(_tkinter.ALL_EVENTS|_tkinter.DONT_WAIT):
-        pass
+
 class Application(Frame):
 	def __init__(self, master, *args, **kwargs):
 		Frame.__init__(self, master, *args, **kwargs)
